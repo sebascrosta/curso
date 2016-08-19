@@ -1,0 +1,26 @@
+table{
+  border-collapse: collapse;
+}
+
+.tabla1 td, .tabla1 tr, .tabla1 th{
+  border: 1px solid #4645AA;
+  text-align: center;
+}
+
+td, tr, th{
+  border: 2px solid black;
+}
+
+.tabla3 th{
+  text-align: right;
+  font-weight: bold;
+  width: 50%;
+}
+
+.tabla3{
+width: 600px;
+}
+
+.tabla3 td, .tabla3 tr, .tabla3 th{
+  border: 1px solid black;
+}

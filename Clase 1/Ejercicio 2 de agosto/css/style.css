@@ -1,0 +1,28 @@
+h1{
+  color:red;
+  font-weight: normal;
+  text-transform: uppercase;;
+}
+
+h2{
+  color:darkgrey;
+}
+
+h2.pregunta{
+  font-family: Helvetica;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: lightgrey;
+}
+
+.respuesta{
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+ol{
+  list-style-type: upper-roman;
+}

@@ -1,0 +1,49 @@
+.container{
+  width: 100%;
+  margin: auto;
+  background: #A4a4a4;
+}
+
+.clearfix{
+  clear: both;
+}
+
+body{
+  background: #a4a4a4;
+}
+
+header{
+  background: #FF3333;
+  width: 100%
+}
+
+header nav ul li{
+  text-align: center;
+  width: 19.5%;
+  float: left;
+}
+
+header nav ul li a{
+  display: block;
+}
+
+.link-nav{
+  margin-right: 5px;
+}
+
+nav ul li {
+  display: block;
+  padding: 10px 0;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot{
+text-align: center;
+}

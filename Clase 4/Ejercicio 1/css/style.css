@@ -1,0 +1,75 @@
+body{
+  background: lightblue;
+}
+
+.clearfix{
+  clear: both;
+}
+
+strong{
+  font-weight: bold;
+}
+
+.container{
+  width: 700px;
+}
+
+header{
+  background: red;
+}
+
+header h1{
+  background: cyan;
+  padding: 20px;
+}
+
+header ul li{
+  background: lightgreen;
+  float: left;
+  border: 1px solid red;
+}
+
+header ul li a{
+  display: block;
+  padding: 10px;
+}
+
+header ul li a span{
+  background: blue;
+  color: white;
+}
+
+section{
+  clear: left;
+  background: yellow;
+  float: left;
+  width: 75%;
+}
+
+section p strong{
+  display: block;
+  background: #ccc;
+  padding: 10px;
+}
+
+section p,
+footer p,
+header p,
+aside p,
+aside.sidebar ul,
+ul{
+  margin: 0px;
+}
+
+aside{
+  background: green;
+}
+
+aside.sidebar{
+  float: right;
+  width: 20%;
+}
+
+footer{
+  background: blue;
+}

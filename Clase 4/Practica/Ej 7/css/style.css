@@ -1,0 +1,24 @@
+.escondido{
+  width: 100px;
+  height: 100px;
+  background: blue;
+  overflow: hidden;
+}
+
+.scroll{
+  width: 100px;
+  height: 100px;
+  background: green;
+  overflow: scroll;
+}
+
+.visible{
+  width: 100px;
+  height: 100px;
+  background: red;
+  overflow: visible;
+}
+
+.left{
+  float: left;
+}

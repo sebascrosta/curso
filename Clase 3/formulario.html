@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+
+  <body>
+
+    <form action="">
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" placeholder="Nombre" class="input"> <br> <br>
+
+      <label for="dni">DNI:</label>
+      <input type="text" name="dni" placeholder="Ej:12345678" class="input"> <br> <br>
+
+      <label for="pass">Contraseña:</label>
+      <input type="password" name="pass" placeholder="8 caracteres mínimo" class="input"> <br> <br>
+
+      <label for="pokemon">Pokemon Favorito?</label>
+      <select name="pokemon" class="select">
+          <option value="bulba">Bulbasaur</option>
+          <option value="charm">Charmander</option>
+          <option value="squirtle">Squirtle</option>
+          <option value="pika">Pikachu</option>
+      </select> <br> <br>
+
+
+      <label for="comentarios">Comentarios: </label>
+      <textarea name="comentarios" rows="8" cols="40" placeholder="Comentarios" class="textarea"></textarea> <br> <br>
+
+      <button type="submit" name="submit">Enviar</button>
+      <button type="reset" name="reset">Reset</button>
+    </form>
+  </body>
+</html>

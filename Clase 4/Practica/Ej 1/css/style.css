@@ -1,0 +1,30 @@
+body{
+  background: grey;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  width: 800px;
+  background: lightblue;
+}
+
+header{
+  background: #FF3300;
+}
+
+nav{
+  background: #33FF88;
+}
+
+section{
+  background: #888888;
+}
+
+aside{
+  background: #9999FF;
+}
+
+p{
+  margin: 0px;
+}

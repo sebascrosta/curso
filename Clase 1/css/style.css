@@ -1,0 +1,72 @@
+body{
+  background: rgb(0 , 192, 255);
+}
+
+h1 {
+  font-size: 30 px;
+  color: blue;
+  background-color: #D7DF01;
+}
+
+h6{
+  font-size: 24px;
+  color: rgb(79, 28, 190);
+}
+
+ul{
+  background-color: #A83923;
+}
+
+.principal{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.secundario{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+li.discos{
+  font-family: Helvetica;
+  font-size: 18px;
+  background-color: lightgrey;
+}
+
+
+p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+}
+
+p.titulo{
+  font-size: 17px;
+  font-family: Arial;
+}
+
+ol.peliculas li{
+  background-color: rgba(255, 255, 0, 0.8);
+  color: rgba(255, 0, 0, 0.5);
+}
+
+ol.peliculas li.la-mejor{
+  background-color: rgba(0, 255, 0, 0.3);
+  color:rgba(21, 18, 234, 0.63);
+  font-weight: bolder;
+}
+
+ol{
+  background-color: #743820
+}
+
+ol li{
+  background-color: darkgreen;
+}
+
+ol.peliculas{
+  background-color: lightyellow;
+}
+
+mark{
+  background-color: red;
+}

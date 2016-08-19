@@ -1,0 +1,29 @@
+.tabla{
+  position: relative;
+  width: 60%;
+  margin: 20px auto;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, tr, td{
+  border: 1px solid black;
+  text-align: center;
+  padding: 3px;
+}
+
+th{
+  font-weight: bold;
+  background: #673c08;
+}
+
+td{
+  background: #da8113;
+}
+
+th, td{
+  width: 25%;
+}

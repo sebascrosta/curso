@@ -1,0 +1,40 @@
+   /* Small Devices, Tablets */
+   @media only screen and (max-width : 768px) {
+
+     .container{
+       width: 100%;
+     }
+
+     .cajitas{
+       float: none;
+       position: relative;
+       width: 20%;
+       margin-bottom: 200px;
+     }
+
+     .barra-derecha{
+       float: none;
+       width: 90%;
+       margin: 10px auto;
+     }
+}
+   /* Extra Small Devices, Phones */
+   @media only screen and (max-width : 480px) {
+
+     .container{
+       width: 100%;
+     }
+
+     .cajitas{
+       float: none;
+       position: relative;
+       width: 90%;
+       margin-bottom: 200px;
+     }
+
+     .barra-derecha{
+       float: none;
+       width: 90%;
+       margin: 10px auto;
+     }
+   }
