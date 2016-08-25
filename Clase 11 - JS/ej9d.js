@@ -3,9 +3,13 @@ var frutas = ['Banana', 'Manzana', 'Pera', 'Ananá', 'Uva', 'Naranja', 'Pera', '
 var indice = 0;
 var ensalada = [];
 
-for (var i = 0; i<4; i++){
+do{
   indice = Math.floor(Math.random()*10);
-  ensalada.push(frutas[indice]);
-}
+  if (ensalada.indexOf(frutas[indice]) == -1 ) {
+    ensalada.push(frutas[indice]);
+  }
+} while(ensalada.length < 4)
+
+ensalada.sort();
 
 console.log(ensalada.join());

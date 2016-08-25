@@ -8,4 +8,12 @@ for (var i = 0; i<4; i++){
   ensalada.push(frutas[indice]);
 }
 
-console.log(ensalada.join());
+var ensaladaSinRepetidos = [];
+
+for (var i = 0; i < ensalada.length; i++) {
+  if(ensaladaSinRepetidos.indexOf(ensalada[i]) == -1){
+    ensaladaSinRepetidos.push(ensalada[i]);
+  }
+}
+
+console.log(ensaladaSinRepetidos.join());
