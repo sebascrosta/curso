@@ -8,6 +8,6 @@ function agregarProp (objeto, prop, valor){
 
 }
 
-agregarProp (perro, 'peso', 'do kilito');
+agregarProp (perro, 'peso', "do' kilito'");
 
 console.log(perro);
