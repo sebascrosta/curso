@@ -1,0 +1,44 @@
+Contestar 3 preguntas
+
+Dónde
+_____
+
+
+getElementbyID
+getElementsByName
+getElementsByTagName
+getElementsByClass
+
+querySelector
+querySelectorAll
+
+children
+parent
+
+
+
+Qué
+___
+
+CSS -> style
+
+Html
+
+createElement
+createTextNode
+appendChild
+removeChild
+
+innerHTML
+innerText
+
+
+
+Cuándo?
+________
+
+onClick
+
+
+elemento.addEventListener(tipoDeEvento, funcionQueLomaneja)
+evento.preventDefault(); <-- Evita que se ejecute el evento que tiene por default.
