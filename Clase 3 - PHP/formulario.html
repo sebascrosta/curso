@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="ej1.php" method="post">
+        <input type="text" name="nombre" value="" placeholder="nombre">
+        <input type="text" name="mail" value="" placeholder="email">
+        <br>
+        <br>
+        <br> Cómo conociste este sitio?
+        <br>
+        <input type="checkbox" name="checks[]" value="google">Google
+        <input type="checkbox" name="checks[]" value="casual">Casualidad
+        <input type="checkbox" name="checks[]" value="diario">Diario
+        <input type="checkbox" name="checks[]" value="revista">Revista
+        <br>
+        <br> Sexo:
+        <br>
+        <input type="radio" name="sexo" value="M">Masculino
+        <input type="radio" name="sexo" value="F">Femenino
+        <input type="radio" name="sexo" value="O">Qué te importa opresor asesino de voluntades?
+        <br>
+        <br> Cómo dormiste anoche? &nbsp;&nbsp;
+
+        <select name="dormiste">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+        <br> Acepto los términos y condiciones
+        <input type="checkbox" name="TOS"> <br>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>
