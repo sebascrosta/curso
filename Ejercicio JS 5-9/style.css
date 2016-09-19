@@ -1,0 +1,12 @@
+ body{
+  margin: 0;
+  padding: 0;
+}
+
+.izq .medio .derecha{
+  height: 1000px;
+  background: #AAA;
+  padding: 0;
+  margin: 0;
+  float:left;
+}
