@@ -18,17 +18,16 @@ class Pyme extends Cliente{
     return $this->razonSocial;
   }
 
-
-      public function setEmail($email){
-        $this->email = $email;
-      }
-      public function getEmail(){
-        return $this->email;
-      }
-      public function setPass($pass){
-        $this->pass = $pass;
-      }
-      public function getPass(){
-        return $this->pass;
-      }
+  public function setEmail($email){
+    $this->email = $email;
+  }
+  public function getEmail(){
+    return $this->email;
+  }
+  public function setPass($pass){
+    $this->pass = $pass;
+  }
+  public function getPass(){
+    return $this->pass;
+  }
 }
