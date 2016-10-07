@@ -15,7 +15,7 @@ class UserJsonRepository extends UserRepository{
   }
 
   private function traerNuevoId(){
-    if(!file_exists("usuarios.json")){
+    if(!file_exists("usuarios.json") || filesize('usuarios.json') == 0){
       return 1;
     }
     $usuarios = file_get_contents("usuarios.json");
