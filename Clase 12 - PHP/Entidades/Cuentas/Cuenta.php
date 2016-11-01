@@ -29,6 +29,7 @@ abstract class Cuenta
    }
 
    public abstract function debitar ($monto, $origen);
+
    public function acreditar($monto){
      $this->balance += $monto;
      $this->actualizarFechaTransaccion();
