@@ -1,0 +1,7 @@
+Standard laravel para MySQL
+
+1 - tiene id ---> Para salvarlo, en el modelo se crea protected $primaryKey = 'nombrecampo'.
+2 - timestamps. created_at updated_at ---> Para salvarlo, en el modelo se crea protected $timestamps = false;
+3 - las fk son nombretablaENSINGULAR_id
+
+Fillable

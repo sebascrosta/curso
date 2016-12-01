@@ -11,23 +11,17 @@
 
       <div class="content">
           <div class="title m-b-md">
-              Laravel
+              Laravel <br>
           </div>
 
-          <form action="/prueba-post" method="post">
+          <form action="/" method="get">
             {{ csrf_field() }}
-            <input type="text" name="nombre" value="">
+            <input type="text" name="query" value="">
             <button type="submit">Enviar</button>
 
           </form>
 
-          <div class="links">
-              <a href="https://laravel.com/docs">Documentation</a>
-              <a href="https://laracasts.com">Laracasts</a>
-              <a href="https://laravel-news.com">News</a>
-              <a href="https://forge.laravel.com">Forge</a>
-              <a href="https://github.com/laravel/laravel">GitHub</a>
-          </div>
+
       </div>
   </div>
 @endsection

@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('peliculas', 'PeliculasController@listado'); //controlador@funcion
+//controlador@funcion
+
 Route::get('pelicula/{id}', 'PeliculasController@ver');
+Route::get('peliculas', 'PeliculasController@peliculas');
 Route::post('prueba-post', 'PeliculasController@prueba');

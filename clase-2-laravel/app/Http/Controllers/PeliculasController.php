@@ -11,10 +11,22 @@ class PeliculasController extends Controller
     }
 
     public function ver($id){
-      return "Película número $id";
+      $pelicula = \App\Movie::where('id', $id)->get();
+
+        return view('peliculas',[
+            'peliculas' => $pelicula,
+        ]);
     }
 
     public function prueba(Request $request){
       return "El pedido fue: " . $request->input('nombre');
+    }
+
+    public function peliculas(Request $request){
+        $peliculas = \App\Movie::where('title', 'LIKE', '%'.$request->input('query').'%')->get();
+
+        return view('peliculas', [
+            'peliculas' => $peliculas,
+        ]);
     }
 }

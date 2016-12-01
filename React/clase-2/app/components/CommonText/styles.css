@@ -1,0 +1,8 @@
+.titulo{
+  color:blue;
+}
+
+.fontsize{
+  composes: newColor from '../sharedStyles.css';
+  font-size: 40px;
+}
